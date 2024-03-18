@@ -1,0 +1,61 @@
+.container {
+  height: 80vh;
+  width: 80vh;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+* h1 {
+  color: #a35200;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 20px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 50vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+* button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 12px;
+  font-weight: normal;
+  height: 24px;
+  width: 80px;
+  border-radius: 4px;
+  border-width: 0px;
+}
+
+.result-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.result {
+  font-size: 15px;
+  font-weight: bold;
+  color: #334155;
+  margin-right: 10px;
+}
